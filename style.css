@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --maincolor: #b9ff66;
+    --seccolor: #191A23;
+    --bodycolor: #F3F3F3;
+
+}
+
+.maincolor-t{
+    color: var(--maincolor);
+}
+
+.seccolor-t{
+    color: var(--seccolor);
+}
+
+.bodycolor-t{
+    color: var(--bodycolor);    
+}
+
+.maincolor-b{
+    background-color: var(--maincolor);
+}
+
+.seccolor-b{
+    background-color: var(--seccolor);
+}
+
+.bodycolor-b{
+    background-color: var(--bodycolor);    
+}
+
+.black{
+    color: black;
+}
+
+.margin-left{
+    margin-left: 65rem;
+}
+
+.container-main{
+    max-width: 90%;
+    margin: 10rem;
+
+
+}
+
+.sec1{
+    flex:1;
+}
+
+.sec1-p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex1{
+    flex: 1;
+}
+
+.sec2-main{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sec2-1{
+    border: 1px solid black;
+    width: 40rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.flex-direct{
+    display: flex;
+    gap: 10rem;
+}
+
+.sec2-2{
+    background-color: var(--maincolor);
+    border: 1px solid black;
+    width: 40rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sec2{
+    display: flex;
+}
